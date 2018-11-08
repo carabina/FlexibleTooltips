@@ -1,0 +1,6 @@
+framework module Pods_FlexibleTooltips_Tests {
+  umbrella header "Pods-FlexibleTooltips_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

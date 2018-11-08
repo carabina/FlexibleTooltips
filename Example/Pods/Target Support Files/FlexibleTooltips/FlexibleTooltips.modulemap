@@ -1,0 +1,6 @@
+framework module FlexibleTooltips {
+  umbrella header "FlexibleTooltips-umbrella.h"
+
+  export *
+  module * { export * }
+}

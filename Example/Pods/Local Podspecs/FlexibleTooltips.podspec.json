@@ -1,0 +1,22 @@
+{
+  "name": "FlexibleTooltips",
+  "version": "0.1.0",
+  "summary": "A short description of FlexibleTooltips.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenhao@storytile.net/FlexibleTooltips",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenhao@storytile.net": "chenhao.chiang@tum.de"
+  },
+  "source": {
+    "git": "https://github.com/chenhao@storytile.net/FlexibleTooltips.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlexibleTooltips/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_FlexibleTooltips_Example {
+  umbrella header "Pods-FlexibleTooltips_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

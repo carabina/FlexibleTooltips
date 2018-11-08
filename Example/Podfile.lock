@@ -1,0 +1,16 @@
+PODS:
+  - FlexibleTooltips (0.1.0)
+
+DEPENDENCIES:
+  - FlexibleTooltips (from `../`)
+
+EXTERNAL SOURCES:
+  FlexibleTooltips:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlexibleTooltips: bea5f3c43151c1dc01b5ce9e1921856401f13561
+
+PODFILE CHECKSUM: 5b3c13a9045960281827798204f5ead605f03fa8
+
+COCOAPODS: 1.5.3
