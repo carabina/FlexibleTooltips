@@ -5,6 +5,7 @@
 
 import UIKit
 import Foundation
+import FlexibleTooltips
 
 class ViewController: UIViewController, FlexibleTooltipManagerDelegate {
   var tooltipManager : FlexibleTooltipManager!

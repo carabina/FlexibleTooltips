@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-protocol FlexibleTooltipManagerDelegate: class {
+public protocol FlexibleTooltipManagerDelegate: class {
   func userDidFinishTips()
   func tooltipTapped()
 }
@@ -17,10 +17,10 @@ public class FlexibleTooltipManager: FlexibleTooltipDelegate {
   }
   
   private var tooltips: [FlexibleTooltip] = []
-  weak var delegate: FlexibleTooltipManagerDelegate?
+  public weak var delegate: FlexibleTooltipManagerDelegate?
   private var parentView: UIView!
   
-  init(view: UIView) {
+  public init(view: UIView) {
     self.parentView = view
   }
   

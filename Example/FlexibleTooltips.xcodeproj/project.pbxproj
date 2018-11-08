@@ -15,8 +15,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D3FD32FF21947DD300970D40 /* FlexibleTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD32FE21947DD300970D40 /* FlexibleTooltipView.swift */; };
-		D3FD330121947DF000970D40 /* FlexibleTooltipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD330021947DF000970D40 /* FlexibleTooltipManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +46,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66EC68E4164F739459BE1086 /* Pods-FlexibleTooltips_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexibleTooltips_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexibleTooltips_Example/Pods-FlexibleTooltips_Example.release.xcconfig"; sourceTree = "<group>"; };
 		799156F1E7AAA676C0AD11E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D3FD32FE21947DD300970D40 /* FlexibleTooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlexibleTooltipView.swift; path = Pods/FlexibleTooltipView.swift; sourceTree = "<group>"; };
-		D3FD330021947DF000970D40 /* FlexibleTooltipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlexibleTooltipManager.swift; path = Pods/FlexibleTooltipManager.swift; sourceTree = "<group>"; };
 		D492B519B5F3656988997224 /* Pods-FlexibleTooltips_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexibleTooltips_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexibleTooltips_Tests/Pods-FlexibleTooltips_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,8 +146,6 @@
 				66EC68E4164F739459BE1086 /* Pods-FlexibleTooltips_Example.release.xcconfig */,
 				3194CD3B92FA0C379A1F068D /* Pods-FlexibleTooltips_Tests.debug.xcconfig */,
 				D492B519B5F3656988997224 /* Pods-FlexibleTooltips_Tests.release.xcconfig */,
-				D3FD32FE21947DD300970D40 /* FlexibleTooltipView.swift */,
-				D3FD330021947DF000970D40 /* FlexibleTooltipManager.swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -328,9 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FD330121947DF000970D40 /* FlexibleTooltipManager.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				D3FD32FF21947DD300970D40 /* FlexibleTooltipView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
