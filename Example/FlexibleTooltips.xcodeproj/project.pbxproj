@@ -15,6 +15,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D3FD32FF21947DD300970D40 /* FlexibleTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD32FE21947DD300970D40 /* FlexibleTooltipView.swift */; };
+		D3FD330121947DF000970D40 /* FlexibleTooltipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD330021947DF000970D40 /* FlexibleTooltipManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +31,11 @@
 
 /* Begin PBXFileReference section */
 		1846A0FF50DABA036C7A5FFE /* Pods_FlexibleTooltips_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleTooltips_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B6746E4E793B54A150F538B /* FlexibleTooltips.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FlexibleTooltips.podspec; path = ../FlexibleTooltips.podspec; sourceTree = "<group>"; };
+		2B6746E4E793B54A150F538B /* FlexibleTooltips.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FlexibleTooltips.podspec; path = ../FlexibleTooltips.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3194CD3B92FA0C379A1F068D /* Pods-FlexibleTooltips_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexibleTooltips_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexibleTooltips_Tests/Pods-FlexibleTooltips_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		337F5CC3DFD858C617E4409E /* Pods_FlexibleTooltips_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleTooltips_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		580A7C2C370072629F382A48 /* Pods-FlexibleTooltips_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexibleTooltips_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexibleTooltips_Example/Pods-FlexibleTooltips_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5E88CAE0C9094117E11E307E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E88CAE0C9094117E11E307E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FlexibleTooltips_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleTooltips_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +47,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66EC68E4164F739459BE1086 /* Pods-FlexibleTooltips_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexibleTooltips_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexibleTooltips_Example/Pods-FlexibleTooltips_Example.release.xcconfig"; sourceTree = "<group>"; };
-		799156F1E7AAA676C0AD11E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		799156F1E7AAA676C0AD11E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3FD32FE21947DD300970D40 /* FlexibleTooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlexibleTooltipView.swift; path = Pods/FlexibleTooltipView.swift; sourceTree = "<group>"; };
+		D3FD330021947DF000970D40 /* FlexibleTooltipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlexibleTooltipManager.swift; path = Pods/FlexibleTooltipManager.swift; sourceTree = "<group>"; };
 		D492B519B5F3656988997224 /* Pods-FlexibleTooltips_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexibleTooltips_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexibleTooltips_Tests/Pods-FlexibleTooltips_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +150,8 @@
 				66EC68E4164F739459BE1086 /* Pods-FlexibleTooltips_Example.release.xcconfig */,
 				3194CD3B92FA0C379A1F068D /* Pods-FlexibleTooltips_Tests.debug.xcconfig */,
 				D492B519B5F3656988997224 /* Pods-FlexibleTooltips_Tests.release.xcconfig */,
+				D3FD32FE21947DD300970D40 /* FlexibleTooltipView.swift */,
+				D3FD330021947DF000970D40 /* FlexibleTooltipManager.swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -322,7 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FD330121947DF000970D40 /* FlexibleTooltipManager.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D3FD32FF21947DD300970D40 /* FlexibleTooltipView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
